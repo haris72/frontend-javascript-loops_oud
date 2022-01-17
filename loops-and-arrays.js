@@ -36,7 +36,7 @@ for (let i = 0; i < numbers.length; i++) {
         numbers[i] = numbers[i] * 3;
         }
 }
-    console.log(numbers);
+console.log(numbers);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:

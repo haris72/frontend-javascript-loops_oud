@@ -21,10 +21,10 @@ for (let i = 0; i < 3; i++) {
 
 for (let i = 0; i <= 5; i++) {
     if (i < 4 ) {
-        console.log("loop...")
+        console.log("loop...");
     }
     if (i === 5) {
-        console.log("klaar!")
+        console.log("klaar!");
     }
 }
 
@@ -44,10 +44,10 @@ for (let i = 0; i <= 5; i++) {
 
 for (let i = 0; i <= 15; i++) {
     if (i % 2 === 0) {
-        console.log(i + " is even")
+        console.log(i + " is even");
     }
     if (i % 2 === 1) {
-        console.log(i + " is oneven")
+        console.log(i + " is oneven");
     }
 }
 
@@ -71,12 +71,12 @@ for (let i = 0; i <= 15; i++) {
 
 for (let i = 0; i <= 9; i++) {
     if (i <= 2) {
-        console.log(i)
+        console.log(i);
     }
     if (i >= 3 && i <= 5) {
-        console.log("> " + i)
+        console.log("> " + i);
     }
     if (i >= 6 && i <= 9) {
-        console.log(">> " + i)
+        console.log(">> " + i);
     }
 }
