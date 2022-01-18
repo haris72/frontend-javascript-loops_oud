@@ -55,15 +55,15 @@ console.log(numbers);
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
-const squares = [30, 2, 8, 24, 11];
-console.log(squares);
+//const squares = [30, 2, 8, 24, 11];
+//console.log(squares);
 
-for (let i = 0; i < squares.length; i++) {
-    let x = squares[i];
-    squares[i] = Math.pow(x,3);
-    squares[i] = "Het volume van " + x + " is " + squares[i];
-}
-console.log(squares);
+//for (let i = 0; i < squares.length; i++) {
+    //let x = squares[i];
+    //squares[i] = Math.pow(x,3);
+    //squares[i] = "Het volume van " + x + " is " + squares[i];
+//}
+//console.log(squares);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -76,3 +76,10 @@ console.log(squares);
 //   'Het volume van 24 is 13824',
 //   'Het volume van 11 is 1331'
 // ]
+
+
+const squares = [30, 2, 8, 24, 11];
+console.log(squares)
+for (let i = 0; i < squares.length; i++) {
+    console.log("Het volume van " + squares[i] + " is " + (Math.pow(squares[i],3)));
+}
