@@ -19,11 +19,11 @@ for (let i = 0; i < 3; i++) {
 // klaar!
  // ==========================================
 
-for (let i = 0; i <= 5; i++) {
+for (let i = 0; i <= 4; i++) {
     if (i < 4 ) {
         console.log("loop...");
     }
-    if (i === 5) {
+    if (i === 4) {
         console.log("klaar!");
     }
 }
